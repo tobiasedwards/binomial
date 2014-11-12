@@ -21,8 +21,8 @@ already been dawn.
 
 To calculate the probability that *X = x*:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=P%28X%3Dx%29%20%3D%20%5Cbegin%7Bpmatrix%7Dn%5C%5Cx%5Cend%7Bpmatrix%7D%20p%5Ex%20%281-p%29%5Ex&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![equation](http%3A%2F%2Fwww.sciweavers.org%2Ftex2img.php%3Feq%3DP%2528X%253Dx%2529%2520%253D%2520%255Cbegin%257Bpmatrix%257Dn%255C%255Cx%255Cend%257Bpmatrix%257D%2520p%255Ex%2520%25281-p%2529%255Ex%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Darev%26edit%3D0)
 
 To calculate the probability that *a <= X <= b*:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=P%28a%20%5Cle%20X%20%5Cle%20b%29%20%3D%20P%28X%3Da%29%20%2B%20P%28X%3Da%20%2B%201%29%20%2B%20...%20%2B%20P%28X%3Db%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![equation](http%3A%2F%2Fwww.sciweavers.org%2Ftex2img.php%3Feq%3DP%2528a%2520%255Cle%2520X%2520%255Cle%2520b%2529%2520%253D%2520P%2528X%253Da%2529%2520%252B%2520P%2528X%253Da%2520%252B%25201%2529%2520%252B%2520...%2520%252B%2520P%2528X%253Db%2529%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Darev%26edit%3D0)
