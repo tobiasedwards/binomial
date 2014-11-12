@@ -21,8 +21,8 @@ already been dawn.
 
 To calculate the probability that *X = x*:
 
-![equation](http%3A%2F%2Fwww.sciweavers.org%2Ftex2img.php%3Feq%3DP%2528X%253Dx%2529%2520%253D%2520%255Cbegin%257Bpmatrix%257Dn%255C%255Cx%255Cend%257Bpmatrix%257D%2520p%255Ex%2520%25281-p%2529%255Ex%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Darev%26edit%3D0)
+![Probability Formula](/img/probability_formula.png?raw=true)
 
 To calculate the probability that *a <= X <= b*:
 
-![equation](http%3A%2F%2Fwww.sciweavers.org%2Ftex2img.php%3Feq%3DP%2528a%2520%255Cle%2520X%2520%255Cle%2520b%2529%2520%253D%2520P%2528X%253Da%2529%2520%252B%2520P%2528X%253Da%2520%252B%25201%2529%2520%252B%2520...%2520%252B%2520P%2528X%253Db%2529%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Darev%26edit%3D0)
+![img](/img/probability_cumulative_formula.png?raw=true)
