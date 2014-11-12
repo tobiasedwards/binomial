@@ -25,4 +25,4 @@ To calculate the probability that *X = x*:
 
 To calculate the probability that *a <= X <= b*:
 
-![img](/img/probability_cumulative_formula.png?raw=true)
+![Cumulative Probability Formula](/img/probability_cumulative_formula.png?raw=true)
