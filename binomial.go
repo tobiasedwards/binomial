@@ -231,7 +231,15 @@ func factorial(n int64) (int64, error) {
 	}
 
 	// m represents factorial of n-1
-	m, _ := factorial(n - 1)
+	m, err := factorial(n - 1)
+	if m < 0 {
+		err = errors.New("integer overflow")
+	}
+
+	if err != nil {
+		return -1, err
+	}
+
 	return n * m, nil
 }
 
@@ -251,9 +259,21 @@ func combination(n, r int64) (int64, error) {
 		return 0, nil
 	}
 
-	n_fac, _ := factorial(n)
-	r_fac, _ := factorial(r)
-	n_less_r_fac, _ := factorial(n - r)
+	n_fac, err := factorial(n)
+	if err != nil {
+		return -1, err
+	}
+
+	r_fac, err := factorial(r)
+	if err != nil {
+		return -1, err
+	}
+
+	n_less_r_fac, err := factorial(n - r)
+	if err != nil {
+		return -1, err
+	}
+
 	return n_fac / (r_fac * n_less_r_fac), nil
 }
 
